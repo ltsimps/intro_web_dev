@@ -1,66 +1,84 @@
 
-* {
-  box-sizing: border-box;
+.main-brand{
+  font-family : 'Great Vibes', cursive;
+  font-size   :60px;
+  font-weight : normal;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align  : center;
+
 }
-
-.ai-fe {
-    display: flex;
-    width: 100%;
-    border: 1px solid black;
-    align-items: flex-end;
-  }
-
-  .ai-se {
-      display: flex;
-      width: 100%;
-      border: 1px solid black;
-      align-items: flex-start;
-    }
-
-.jc-center {
-    justify-content: center;
-  }
-
-.jc-sb {
-      justify-content: space-between;
-}
-.flex-container {
-    display: flex;
-    width: 100%;
-    border: 1px solid black;
-}
-
-.column {
-    flex-direction: column;
-  }
-.topdiv {
+.story-image{
+  width: 100%;
 
 }
 
-.bottomdiv {
-
+.row{
+  display: flex;
+  align-items: stretch;
 }
 
-.box1{
-     border: 1px solid black;
-     color: black;
-     background-color: white;
-     height: 150px;
-     width: 300px;
+.row-reverse{
+  display: flex;
+  align-items: stretch;
 }
-
-.box2{
-  border: 1px solid black;
-  color: black;
-  background-color: white;
-  height: 150px;
-  width: 300px;
+.story{
+  border: 1px solid #333;
+  padding: 5px;
 
 }
-.box3{
-  border: 1px solid black;
-  color: black;
-  background-color: white;
-  height: 150px;
-  width: 300px;
+.story-text{
+  line-height: 1.5;
+  font-size: 18px;
 }
+
+.story-title {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 30px;
+  margin: 15px 0;
+  text-align: center;
+}
+.quarter {
+  width: 25%;
+}
+.half {
+  width: 50%;
+
+}
+.three-quarter{
+  width: 75%;
+}
+.nav-list{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item{
+  width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  font-size: 30px;
+  color: #555;
+  font-weight: bold;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: #FFD700;
+}
+.nav-item a:hover {
+  text-decoration: underline;
+  color: #4169e1;
+}
+
+.nav-item:nth-child(1){ background-color:#ffaaa7}
+.nav-item:nth-child(2){ background-color:#8B008B}
+.nav-item:nth-child(3){ background-color:#4B0082}
+.nav-item:nth-child(4){ background-color:#fffaa7}
+.nav-item:nth-child(5){ background-color:#afaba7}
