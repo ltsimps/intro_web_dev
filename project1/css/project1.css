@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 
 .main-brand{
   font-family : 'Great Vibes', cursive;
