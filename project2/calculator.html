@@ -3,40 +3,59 @@
   <head>
     <meta charset="utf-8">
     <title>IOS Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
   </head>
   <body>
 
-    <input type="text" name="display" value="0">
-    <div class="">
+    <div class="calc">
+
+        <section class="screen">
+           0
+        </section>
+
+        <section class="calc-buttons">
 
 
-       <table class="numbers">
-         <tr>
-           <td> <button type="button" name="clear">C</button></td>
-           <td><button type="button" name="backspace">BACK</button></td>
-           <td> <button type="button" name="DIV">DIV</button></td>
+       <div class="calc-button-row triple">
 
-         </tr>
-       <tr>
-         <td> <button type="button" name="button1">1</button></td>
-         <td><button type="button" name="button2">2</button></td>
-         <td><button type="button" name="button3">3</button></td>
-         <td> <button type="button" name="MULT">MULT</button></td>
-
-       </tr>
-       <tr>
-         <td><button type="button" name="button4">4</button></td>
-         <td><button type="button" name="button5">5</button></td>
-         <td> <button type="button" name="button6">6</button></td>
-         <td> <button type="button" name="SUB">SUB</button></td>
-       </tr>
-       <tr>
-         <td><button type="button" name="button7">7</button></td>
-         <td><button type="button" name="button8">8</button></td>
-         <td> <button type="button" name="button9">9</button></td>
-         <td> <button type="button" name="PLUS">PLUS</button></td>
-       </tr>
-    </table>
+        <button type="button" name="clear" class="calc-button">C</button>
+        <button type="button" name="backspace" class="calc-button" >⬅</button>
+        <button type="button" name="DIV" class="calc-button">&#247;</button>
       </div>
+
+      <div class="calc-button-row">
+         <button type="button" name="button2" class="calc-button">2</button>
+         <button type="button" name="button3" class="calc-button">3</button>
+         <button type="button" name="MULT" class="calc-button" >	&#xd7;</button>
+         <button type="button" name="button1" class="calc-button">1</button>
+        </div>
+
+       <div class="calc-button-row">
+       <button type="button" name="button4" class="calc-button">4</button>
+       <button type="button" name="button5" class="calc-button">5</button>
+        <button type="button" name="button6" class="calc-button">6</button>
+        <button type="button" name="SUB" class="calc-button"> &#x2212;</button>
+      </div>
+
+
+      <div class="calc-button-row">
+      <button type="button" name="button7" class="calc-button">7</button>
+      <button type="button" name="button8" class="calc-button">8</button>
+       <button type="button" name="button9" class="calc-button">9</button>
+       <button type="button" name="PLUS" class="calc-button">&#x2b;</button>
+      </div>
+
+      <div class="calc-button-row double">
+            <button type="button" name="button7" class="calc-button">0</button>
+            <button type="button" name="button8" class="calc-button">=</button>
+
+      </div>
+
+
+    </section>
+
+   </div>
+
+
   </body>
 </html>
